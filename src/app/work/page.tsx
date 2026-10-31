@@ -67,6 +67,16 @@ const LIVE_DEPLOYMENTS = [
     desc: "Flagship solo engineering portfolio featuring custom manga shinobi aesthetics, live deployments, and client dispatches.",
     badge: "LIVE FLAGSHIP",
   },
+  {
+    id: "live-istiqamat",
+    title: "Istiqamat ul Aimma",
+    category: "Islamic & Community Platform",
+    url: "https://istiqamat-ul-aimma.vercel.app/",
+    domain: "istiqamat-ul-aimma.vercel.app",
+    tech: "Next.js • Tailwind CSS • Content Platform",
+    desc: "Dedicated digital platform serving Islamic content, spiritual resources, and community engagement for a growing online audience.",
+    badge: "LIVE PLATFORM",
+  },
 ];
 
 const MISSIONS: Mission[] = [
@@ -258,6 +268,134 @@ const MISSIONS: Mission[] = [
     metricBoxClass: "bg-secondary-fixed/30 border border-on-surface",
     metricValueClass: "text-secondary font-bold",
   },
+  {
+    id: "istiqamat-ul-aimma",
+    chapter: "CHAPTER 11",
+    badge: "[LIVE ON VERCEL]",
+    badgeClass: "text-emerald-500 font-bold",
+    title: "Istiqamat ul Aimma",
+    subtitle: "Islamic Community & Spiritual Content Platform",
+    description:
+      "Purpose-built digital platform for Islamic content curation, spiritual guidance, and community engagement — serving thousands of readers with fast, accessible, and beautifully structured Islamic resources.",
+    category: "websites",
+    isLive: true,
+    liveUrl: "https://istiqamat-ul-aimma.vercel.app/",
+    metricLabel: "PLATFORM REACH:",
+    metricValue: "Community First",
+    metricSub: "Built for accessibility, spiritual growth, and global Islamic community.",
+    tags: ["Next.js", "Tailwind CSS", "Content Platform", "Vercel"],
+    location: "Islamic Platform",
+    metricBoxClass: "bg-emerald-500/10 border border-emerald-500/50",
+    metricValueClass: "text-emerald-500 font-bold",
+  },
+  {
+    id: "arts-interior-framer",
+    chapter: "CHAPTER 12",
+    badge: "[FRAMER DESIGN]",
+    badgeClass: "text-tertiary",
+    title: "Arts Interior Framer",
+    subtitle: "Creative Interior Design Showcase",
+    description:
+      "High-fidelity interior design landing page built with Framer's advanced motion capabilities, showcasing luxury residential and commercial art direction with cinematic scroll transitions.",
+    category: "websites",
+    metricLabel: "ANIMATION QUALITY:",
+    metricValue: "60 FPS Cinematic",
+    metricSub: "Fluid scroll-driven reveals and physics-based transitions.",
+    tags: ["Framer", "Interior Design", "Motion UI", "Creative"],
+    location: "Creative Design",
+    metricBoxClass: "bg-tertiary-fixed/40 border border-on-surface",
+    metricValueClass: "text-tertiary font-bold",
+  },
+  {
+    id: "mostar",
+    chapter: "CHAPTER 13",
+    badge: "[BRAND IDENTITY]",
+    badgeClass: "text-primary",
+    title: "MOSTAR Brand Platform",
+    subtitle: "Premium Brand Identity & Digital Presence",
+    description:
+      "Bold brand identity and digital platform for MOSTAR, engineered to establish strong visual authority and convert high-intent visitors through a clean, powerful brand narrative.",
+    category: "websites",
+    metricLabel: "BRAND CONVERSION:",
+    metricValue: "High-Impact Positioning",
+    metricSub: "Clean narrative and strong visual hierarchy driving qualified leads.",
+    tags: ["Next.js", "Brand Identity", "Tailwind CSS"],
+    location: "Brand & Identity",
+    metricBoxClass: "bg-primary-fixed/30 border border-on-surface",
+    metricValueClass: "text-primary font-bold",
+  },
+  {
+    id: "new-world",
+    chapter: "CHAPTER 14",
+    badge: "[WEB APP]",
+    badgeClass: "text-secondary",
+    title: "NewWorld Digital Platform",
+    subtitle: "Modern Full-Stack Web Application",
+    description:
+      "Full-stack digital platform featuring dynamic user experiences, modern architecture patterns, and production-grade performance optimizations built for global scale.",
+    category: "apps",
+    metricLabel: "ARCHITECTURE:",
+    metricValue: "Full-Stack Edge",
+    metricSub: "Serverless API routes with sub-100ms response times globally.",
+    tags: ["Next.js", "TypeScript", "Node.js", "Full-Stack"],
+    location: "Web Platform",
+    metricBoxClass: "bg-secondary-fixed/30 border border-on-surface",
+    metricValueClass: "text-secondary font-bold",
+  },
+  {
+    id: "oasis-infobyte",
+    chapter: "CHAPTER 15",
+    badge: "[INTERNSHIP PROJECT]",
+    badgeClass: "text-on-surface-variant",
+    title: "OASIS INFOBYTE Projects",
+    subtitle: "Internship & Training Development Suite",
+    description:
+      "Set of real-world development projects completed during OASIS INFOBYTE internship — covering landing pages, calculator apps, and to-do management systems built with clean, production-standard code.",
+    category: "apps",
+    metricLabel: "SKILLS APPLIED:",
+    metricValue: "Core Web Stack",
+    metricSub: "HTML, CSS, JavaScript proficiency demonstrated across multiple live projects.",
+    tags: ["HTML", "CSS", "JavaScript", "Internship"],
+    location: "Training Projects",
+    metricBoxClass: "bg-surface-container-high border border-on-surface",
+    metricValueClass: "text-on-surface font-bold",
+  },
+  {
+    id: "l-and-global",
+    chapter: "CHAPTER 16",
+    badge: "[ENTERPRISE]",
+    badgeClass: "text-primary",
+    title: "L&Global Business Platform",
+    subtitle: "Global Enterprise & B2B Portal",
+    description:
+      "Enterprise-grade B2B platform designed for global operations, featuring multi-service showcasing, corporate contact funnels, and authority-building content architecture.",
+    category: "websites",
+    metricLabel: "ENTERPRISE SCOPE:",
+    metricValue: "B2B Lead Engine",
+    metricSub: "Structured for corporate credibility and international client acquisition.",
+    tags: ["Next.js", "Tailwind CSS", "Enterprise", "B2B"],
+    location: "Global Enterprise",
+    metricBoxClass: "bg-primary-fixed/30 border border-on-surface",
+    metricValueClass: "text-primary font-bold",
+  },
+  {
+    id: "terracota",
+    chapter: "CHAPTER 17",
+    badge: "[LUXURY LIFESTYLE]",
+    badgeClass: "text-tertiary",
+    title: "Terracota Luxury Living",
+    subtitle: "Premium Lifestyle & Decor Brand",
+    description:
+      "Earth-toned luxury lifestyle brand digital platform showcasing artisan decor, premium materials, and bespoke interior products with an editorial photography-forward design system.",
+    category: "websites",
+    metricLabel: "VISUAL IDENTITY:",
+    metricValue: "Editorial Premium",
+    metricSub: "Photography-first grid layouts with warm luxury color palette.",
+    tags: ["Next.js", "Lifestyle Brand", "Tailwind CSS", "Editorial"],
+    location: "Luxury Lifestyle",
+    metricBoxClass: "bg-tertiary-fixed/40 border border-on-surface",
+    metricValueClass: "text-tertiary font-bold",
+  },
 ];
 
 export default function WorkPage() {
@@ -327,12 +465,12 @@ export default function WorkPage() {
             </div>
             <div className="font-label-code text-[11px] text-on-surface-variant uppercase font-bold flex items-center gap-2">
               <span className="material-symbols-outlined text-base text-emerald-500">check_circle</span>
-              <span>4 OF 4 ACTIVE SITES ONLINE</span>
+              <span>5 OF 5 ACTIVE SITES ONLINE</span>
             </div>
           </div>
 
-          {/* 4 Live Sites Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {/* 5 Live Sites Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
             {LIVE_DEPLOYMENTS.map((live) => (
               <div
                 key={live.id}
@@ -396,7 +534,7 @@ export default function WorkPage() {
             }`}
             type="button"
           >
-            All Missions (10)
+            All Missions (17)
           </button>
 
           <button
@@ -409,7 +547,7 @@ export default function WorkPage() {
             type="button"
           >
             <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-            <span>Live Deployments (04)</span>
+            <span>Live Deployments (05)</span>
           </button>
 
           <button
@@ -421,7 +559,7 @@ export default function WorkPage() {
             }`}
             type="button"
           >
-            Websites (05)
+            Websites (11)
           </button>
 
           <button
@@ -445,7 +583,7 @@ export default function WorkPage() {
             }`}
             type="button"
           >
-            Full-Stack Apps (02)
+            Full-Stack Apps (04)
           </button>
 
           <div className="ml-auto flex items-center gap-2 font-label-code text-label-code text-on-surface-variant">

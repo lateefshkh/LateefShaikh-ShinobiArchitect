@@ -101,7 +101,7 @@ export default function Header() {
 
             {/* Hire Lateef CTA */}
             <Link
-              href="/contact"
+              href="/contact#mission-form"
               className="px-3 py-1.5 bg-primary-container text-on-primary border-2 border-on-surface manga-shadow font-headline-sm text-headline-sm tracking-wide uppercase hover:translate-x-0.5 hover:translate-y-0.5 transition-all flex items-center gap-1"
             >
               <span className="material-symbols-outlined text-[18px]">swords</span>

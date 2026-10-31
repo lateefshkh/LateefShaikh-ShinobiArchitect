@@ -119,7 +119,7 @@ export default function ContactPage() {
             </div>
 
             {/* The Parchment Scroll Body */}
-            <div className="relative bg-surface-container-low border-x-4 border-b-4 border-on-surface p-6 sm:p-8 manga-shadow-lg">
+            <div id="mission-form" className="relative bg-surface-container-low border-x-4 border-b-4 border-on-surface p-6 sm:p-8 manga-shadow-lg">
               {/* Screentone Dot Watermark */}
               <div className="absolute top-2 right-2 w-28 h-28 screentone-dots opacity-25 pointer-events-none"></div>
 

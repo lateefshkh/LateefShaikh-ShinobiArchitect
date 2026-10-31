@@ -150,6 +150,47 @@ export default function HomePage() {
               </div>
             </div>
           </div>
+
+          {/* Live Project 5: Istiqamat ul Aimma */}
+          <div className="bg-surface-container-lowest border-2 border-on-surface manga-shadow p-5 flex flex-col justify-between hover:translate-y-[-4px] transition-transform duration-200 group">
+            <div className="space-y-3">
+              <div className="flex items-center justify-between">
+                <span className="px-2 py-0.5 bg-surface-container-high border border-on-surface font-label-code text-[10px] font-bold uppercase text-on-surface">
+                  ISLAMIC PLATFORM
+                </span>
+                <span className="flex items-center gap-1 font-label-code text-[11px] text-emerald-600 dark:text-emerald-400 font-bold">
+                  <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+                  LIVE
+                </span>
+              </div>
+              <h3 className="font-headline-md text-headline-md uppercase text-on-surface group-hover:text-primary transition-colors">
+                Istiqamat ul Aimma
+              </h3>
+              <div className="font-label-code text-[11px] text-primary font-bold">
+                istiqamat-ul-aimma.vercel.app
+              </div>
+              <p className="font-body-sm text-body-sm text-on-surface-variant">
+                Dedicated Islamic content and community platform serving spiritual resources and guidance to a growing global audience.
+              </p>
+              <div className="flex flex-wrap gap-1 font-label-code text-[10px] text-on-surface-variant pt-1">
+                <span className="px-1.5 py-0.5 bg-surface-container border border-outline">Next.js</span>
+                <span className="px-1.5 py-0.5 bg-surface-container border border-outline">Tailwind</span>
+                <span className="px-1.5 py-0.5 bg-surface-container border border-outline">Content</span>
+              </div>
+            </div>
+            <div className="pt-4 mt-4 border-t border-outline-variant">
+              <a
+                href="https://istiqamat-ul-aimma.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => playSFX("kunai")}
+                className="w-full py-2.5 px-3 bg-emerald-500 text-white border-2 border-on-surface manga-shadow font-headline-sm text-[12px] uppercase tracking-wide flex items-center justify-center gap-2 hover:translate-x-0.5 hover:translate-y-0.5 transition-transform"
+              >
+                <span>Visit Live Site</span>
+                <span className="material-symbols-outlined text-[16px]">open_in_new</span>
+              </a>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -339,6 +380,47 @@ export default function HomePage() {
               <span className="material-symbols-outlined text-[16px] text-primary">waves</span>
             </div>
           </div>
+
+          {/* Live Project 5: Istiqamat ul Aimma */}
+          <div className="bg-surface-container-lowest border-2 border-on-surface manga-shadow p-5 flex flex-col justify-between hover:translate-y-[-4px] transition-transform duration-200 group">
+            <div className="space-y-3">
+              <div className="flex items-center justify-between">
+                <span className="px-2 py-0.5 bg-surface-container-high border border-on-surface font-label-code text-[10px] font-bold uppercase text-on-surface">
+                  ISLAMIC PLATFORM
+                </span>
+                <span className="flex items-center gap-1 font-label-code text-[11px] text-emerald-600 dark:text-emerald-400 font-bold">
+                  <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+                  LIVE
+                </span>
+              </div>
+              <h3 className="font-headline-md text-headline-md uppercase text-on-surface group-hover:text-primary transition-colors">
+                Istiqamat ul Aimma
+              </h3>
+              <div className="font-label-code text-[11px] text-primary font-bold">
+                istiqamat-ul-aimma.vercel.app
+              </div>
+              <p className="font-body-sm text-body-sm text-on-surface-variant">
+                Dedicated Islamic content and community platform serving spiritual resources and guidance to a growing global audience.
+              </p>
+              <div className="flex flex-wrap gap-1 font-label-code text-[10px] text-on-surface-variant pt-1">
+                <span className="px-1.5 py-0.5 bg-surface-container border border-outline">Next.js</span>
+                <span className="px-1.5 py-0.5 bg-surface-container border border-outline">Tailwind</span>
+                <span className="px-1.5 py-0.5 bg-surface-container border border-outline">Content</span>
+              </div>
+            </div>
+            <div className="pt-4 mt-4 border-t border-outline-variant">
+              <a
+                href="https://istiqamat-ul-aimma.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => playSFX("kunai")}
+                className="w-full py-2.5 px-3 bg-emerald-500 text-white border-2 border-on-surface manga-shadow font-headline-sm text-[12px] uppercase tracking-wide flex items-center justify-center gap-2 hover:translate-x-0.5 hover:translate-y-0.5 transition-transform"
+              >
+                <span>Visit Live Site</span>
+                <span className="material-symbols-outlined text-[16px]">open_in_new</span>
+              </a>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -360,8 +442,8 @@ export default function HomePage() {
           </p>
         </div>
 
-        {/* 4 Live Vercel Projects Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        {/* 5 Live Vercel Projects Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
           {/* Live Project 1: Urban Vogue */}
           <div className="bg-surface-container-lowest border-2 border-on-surface manga-shadow p-5 flex flex-col justify-between hover:translate-y-[-4px] transition-transform duration-200 group">
             <div className="space-y-3">
@@ -519,6 +601,47 @@ export default function HomePage() {
                 rel="noopener noreferrer"
                 onClick={() => playSFX("kunai")}
                 className="w-full py-2.5 px-3 bg-primary-container text-on-primary border-2 border-on-surface manga-shadow font-headline-sm text-[12px] uppercase tracking-wide flex items-center justify-center gap-2 hover:translate-x-0.5 hover:translate-y-0.5 transition-transform"
+              >
+                <span>Visit Live Site</span>
+                <span className="material-symbols-outlined text-[16px]">open_in_new</span>
+              </a>
+            </div>
+          </div>
+
+          {/* Live Project 5: Istiqamat ul Aimma */}
+          <div className="bg-surface-container-lowest border-2 border-on-surface manga-shadow p-5 flex flex-col justify-between hover:translate-y-[-4px] transition-transform duration-200 group">
+            <div className="space-y-3">
+              <div className="flex items-center justify-between">
+                <span className="px-2 py-0.5 bg-surface-container-high border border-on-surface font-label-code text-[10px] font-bold uppercase text-on-surface">
+                  ISLAMIC PLATFORM
+                </span>
+                <span className="flex items-center gap-1 font-label-code text-[11px] text-emerald-600 dark:text-emerald-400 font-bold">
+                  <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+                  LIVE
+                </span>
+              </div>
+              <h3 className="font-headline-md text-headline-md uppercase text-on-surface group-hover:text-primary transition-colors">
+                Istiqamat ul Aimma
+              </h3>
+              <div className="font-label-code text-[11px] text-primary font-bold">
+                istiqamat-ul-aimma.vercel.app
+              </div>
+              <p className="font-body-sm text-body-sm text-on-surface-variant">
+                Dedicated Islamic content and community platform serving spiritual resources and guidance to a growing global audience.
+              </p>
+              <div className="flex flex-wrap gap-1 font-label-code text-[10px] text-on-surface-variant pt-1">
+                <span className="px-1.5 py-0.5 bg-surface-container border border-outline">Next.js</span>
+                <span className="px-1.5 py-0.5 bg-surface-container border border-outline">Tailwind</span>
+                <span className="px-1.5 py-0.5 bg-surface-container border border-outline">Content</span>
+              </div>
+            </div>
+            <div className="pt-4 mt-4 border-t border-outline-variant">
+              <a
+                href="https://istiqamat-ul-aimma.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => playSFX("kunai")}
+                className="w-full py-2.5 px-3 bg-emerald-500 text-white border-2 border-on-surface manga-shadow font-headline-sm text-[12px] uppercase tracking-wide flex items-center justify-center gap-2 hover:translate-x-0.5 hover:translate-y-0.5 transition-transform"
               >
                 <span>Visit Live Site</span>
                 <span className="material-symbols-outlined text-[16px]">open_in_new</span>
@@ -698,7 +821,7 @@ export default function HomePage() {
                 href="/work"
                 onClick={() => playSFX("click")}
               >
-                <span>View All 10 Missions →</span>
+                <span>View All 17 Missions →</span>
               </Link>
             </div>
           </article>
@@ -793,6 +916,47 @@ export default function HomePage() {
 
             <div className="font-label-code text-label-code text-surface-container-high tracking-wider uppercase pt-4">
               AVG FIRST SCROLL RESPONSE TIME: 4 HOURS // MUMBAI • REMOTE GLOBAL
+            </div>
+          </div>
+
+          {/* Live Project 5: Istiqamat ul Aimma */}
+          <div className="bg-surface-container-lowest border-2 border-on-surface manga-shadow p-5 flex flex-col justify-between hover:translate-y-[-4px] transition-transform duration-200 group">
+            <div className="space-y-3">
+              <div className="flex items-center justify-between">
+                <span className="px-2 py-0.5 bg-surface-container-high border border-on-surface font-label-code text-[10px] font-bold uppercase text-on-surface">
+                  ISLAMIC PLATFORM
+                </span>
+                <span className="flex items-center gap-1 font-label-code text-[11px] text-emerald-600 dark:text-emerald-400 font-bold">
+                  <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+                  LIVE
+                </span>
+              </div>
+              <h3 className="font-headline-md text-headline-md uppercase text-on-surface group-hover:text-primary transition-colors">
+                Istiqamat ul Aimma
+              </h3>
+              <div className="font-label-code text-[11px] text-primary font-bold">
+                istiqamat-ul-aimma.vercel.app
+              </div>
+              <p className="font-body-sm text-body-sm text-on-surface-variant">
+                Dedicated Islamic content and community platform serving spiritual resources and guidance to a growing global audience.
+              </p>
+              <div className="flex flex-wrap gap-1 font-label-code text-[10px] text-on-surface-variant pt-1">
+                <span className="px-1.5 py-0.5 bg-surface-container border border-outline">Next.js</span>
+                <span className="px-1.5 py-0.5 bg-surface-container border border-outline">Tailwind</span>
+                <span className="px-1.5 py-0.5 bg-surface-container border border-outline">Content</span>
+              </div>
+            </div>
+            <div className="pt-4 mt-4 border-t border-outline-variant">
+              <a
+                href="https://istiqamat-ul-aimma.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => playSFX("kunai")}
+                className="w-full py-2.5 px-3 bg-emerald-500 text-white border-2 border-on-surface manga-shadow font-headline-sm text-[12px] uppercase tracking-wide flex items-center justify-center gap-2 hover:translate-x-0.5 hover:translate-y-0.5 transition-transform"
+              >
+                <span>Visit Live Site</span>
+                <span className="material-symbols-outlined text-[16px]">open_in_new</span>
+              </a>
             </div>
           </div>
         </div>
