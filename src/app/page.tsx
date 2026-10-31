@@ -16,19 +16,18 @@ export default function HomePage() {
             <span className="w-2 h-2 rounded-full bg-tertiary animate-pulse"></span>{" "}
             MISSION STATUS: ACTIVE IN MUMBAI
           </span>
-          <span className="hidden sm:inline opacity-40">//</span>
+          <span className="hidden sm:inline opacity-40">{"//"}</span>
           <span className="hidden sm:inline">CHAKRA CADENCE: 99.98% SPEED</span>
-          <span className="hidden md:inline opacity-40">//</span>
+          <span className="hidden md:inline opacity-40">{"//"}</span>
           <span className="hidden md:inline">AVAILABLE FOR SELECT CLIENT MISSIONS</span>
         </div>
-        <button
-          type="button"
-          onClick={() => playSFX("dodon")}
-          className="font-speech-bubble-sm text-speech-bubble-sm font-bold tracking-wider text-on-surface hover:text-primary transition-colors cursor-pointer"
-          title="Click for Sound Effect"
+        <Link
+          href="/work#live-deployments"
+          className="font-label-code text-[11px] font-bold text-emerald-600 dark:text-emerald-400 hover:text-primary transition-colors flex items-center gap-1.5 uppercase"
         >
-          (SFX: *DODON!*)
-        </button>
+          <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+          <span>4 LIVE APPS ONLINE ↗</span>
+        </Link>
       </div>
 
       {/* SECTION 1: Splash-Page Hero Section */}
@@ -131,13 +130,13 @@ export default function HomePage() {
 
                 <div className="relative w-full aspect-[3/4] overflow-hidden bg-surface-container border border-on-surface">
                   <img
-                    alt="Lateef Shaikh original anime shonen manga developer in glowing power-up stance"
+                    alt="Lateef Shaikh - Solo Architect & Full Stack AI Developer"
                     className="w-full h-full object-cover object-center filter contrast-105"
                     loading="eager"
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuAJ4Ybf6ZtsRQBfjfL5rhwuxPrY_aAifIlCmHFcYAoC8gdQh-poBlPyf9vzDJVx7LNhrfBowJF_vmEfwJEQiUQa3QITapqah5LQcWpNXa-zLlDst18FauCBrEXI52PNlUhncdGggqS-TnxSteGmaJepvz4klUTlB0EXqFfPLqbpYJ0TeZDjVs0CBwxXSFmJ81UwUonzNYp6kQLNT96R-ESHrYydmqc7xxGj0V18eSTSUpGkeVpkRdbC"
+                    src="/lateef/lateefshaikh.jpeg"
                   />
                   {/* Energy aura gradient overlay */}
-                  <div className="absolute inset-0 pointer-events-none mix-blend-overlay opacity-30 bg-gradient-to-t from-primary-container via-transparent to-secondary-container"></div>
+                  <div className="absolute inset-0 pointer-events-none mix-blend-overlay opacity-20 bg-gradient-to-t from-primary-container via-transparent to-secondary-container"></div>
                 </div>
 
                 {/* Manga Bottom Strip Info */}
@@ -343,7 +342,193 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* SECTION 3: Featured Work (3 Clean Angled Comic Panels) */}
+      {/* SECTION 3: Live Deployments & Production Radar */}
+      <section className="relative w-full px-4 sm:px-8 lg:px-12 py-12 max-w-7xl mx-auto" id="live-deployments">
+        {/* Radar Section Title Ribbon */}
+        <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-8 gap-4 border-b-2 border-on-surface pb-4">
+          <div>
+            <div className="inline-flex items-center gap-2 bg-emerald-500 text-white px-2.5 py-0.5 font-label-code text-label-code tracking-widest uppercase mb-1 font-bold">
+              <span className="w-2 h-2 rounded-full bg-white animate-pulse"></span>
+              [RADAR // LIVE PRODUCTION DEPLOYMENTS]
+            </div>
+            <h2 className="font-headline-lg text-headline-lg uppercase tracking-tight text-on-surface">
+              LIVE DEPLOYED PROJECTS
+            </h2>
+          </div>
+          <p className="font-speech-bubble-sm text-speech-bubble-sm text-on-surface-variant max-w-xs text-left sm:text-right">
+            Verified production builds running 24/7 on Vercel Edge networks.
+          </p>
+        </div>
+
+        {/* 4 Live Vercel Projects Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          {/* Live Project 1: Urban Vogue */}
+          <div className="bg-surface-container-lowest border-2 border-on-surface manga-shadow p-5 flex flex-col justify-between hover:translate-y-[-4px] transition-transform duration-200 group">
+            <div className="space-y-3">
+              <div className="flex items-center justify-between">
+                <span className="px-2 py-0.5 bg-surface-container-high border border-on-surface font-label-code text-[10px] font-bold uppercase text-on-surface">
+                  E-COMMERCE
+                </span>
+                <span className="flex items-center gap-1 font-label-code text-[11px] text-emerald-600 dark:text-emerald-400 font-bold">
+                  <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+                  LIVE
+                </span>
+              </div>
+              <h3 className="font-headline-md text-headline-md uppercase text-on-surface group-hover:text-primary transition-colors">
+                Urban Vogue
+              </h3>
+              <div className="font-label-code text-[11px] text-primary font-bold">
+                urban-vougee.vercel.app
+              </div>
+              <p className="font-body-sm text-body-sm text-on-surface-variant">
+                Luxury streetwear and apparel storefront with responsive cart state, smooth lookbooks, and sub-second page delivery.
+              </p>
+              <div className="flex flex-wrap gap-1 font-label-code text-[10px] text-on-surface-variant pt-1">
+                <span className="px-1.5 py-0.5 bg-surface-container border border-outline">Next.js</span>
+                <span className="px-1.5 py-0.5 bg-surface-container border border-outline">Tailwind</span>
+                <span className="px-1.5 py-0.5 bg-surface-container border border-outline">Cart Engine</span>
+              </div>
+            </div>
+            <div className="pt-4 mt-4 border-t border-outline-variant">
+              <a
+                href="https://urban-vougee.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => playSFX("kunai")}
+                className="w-full py-2.5 px-3 bg-primary-container text-on-primary border-2 border-on-surface manga-shadow font-headline-sm text-[12px] uppercase tracking-wide flex items-center justify-center gap-2 hover:translate-x-0.5 hover:translate-y-0.5 transition-transform"
+              >
+                <span>Visit Live Site</span>
+                <span className="material-symbols-outlined text-[16px]">open_in_new</span>
+              </a>
+            </div>
+          </div>
+
+          {/* Live Project 2: Ace New Interior */}
+          <div className="bg-surface-container-lowest border-2 border-on-surface manga-shadow p-5 flex flex-col justify-between hover:translate-y-[-4px] transition-transform duration-200 group">
+            <div className="space-y-3">
+              <div className="flex items-center justify-between">
+                <span className="px-2 py-0.5 bg-surface-container-high border border-on-surface font-label-code text-[10px] font-bold uppercase text-on-surface">
+                  ARCHITECTURE
+                </span>
+                <span className="flex items-center gap-1 font-label-code text-[11px] text-emerald-600 dark:text-emerald-400 font-bold">
+                  <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+                  LIVE
+                </span>
+              </div>
+              <h3 className="font-headline-md text-headline-md uppercase text-on-surface group-hover:text-primary transition-colors">
+                Ace New Interior
+              </h3>
+              <div className="font-label-code text-[11px] text-primary font-bold">
+                acenewinterior.vercel.app
+              </div>
+              <p className="font-body-sm text-body-sm text-on-surface-variant">
+                Bespoke spatial architecture and interior design showcase with virtual gallery staging and high-ticket consultation inquiry flow.
+              </p>
+              <div className="flex flex-wrap gap-1 font-label-code text-[10px] text-on-surface-variant pt-1">
+                <span className="px-1.5 py-0.5 bg-surface-container border border-outline">Next.js</span>
+                <span className="px-1.5 py-0.5 bg-surface-container border border-outline">Framer</span>
+                <span className="px-1.5 py-0.5 bg-surface-container border border-outline">Spatial 3D</span>
+              </div>
+            </div>
+            <div className="pt-4 mt-4 border-t border-outline-variant">
+              <a
+                href="https://acenewinterior.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => playSFX("kunai")}
+                className="w-full py-2.5 px-3 bg-secondary-fixed text-on-secondary-fixed border-2 border-on-surface manga-shadow font-headline-sm text-[12px] uppercase tracking-wide flex items-center justify-center gap-2 hover:translate-x-0.5 hover:translate-y-0.5 transition-transform"
+              >
+                <span>Visit Live Site</span>
+                <span className="material-symbols-outlined text-[16px]">open_in_new</span>
+              </a>
+            </div>
+          </div>
+
+          {/* Live Project 3: DKS Jewelry */}
+          <div className="bg-surface-container-lowest border-2 border-on-surface manga-shadow p-5 flex flex-col justify-between hover:translate-y-[-4px] transition-transform duration-200 group">
+            <div className="space-y-3">
+              <div className="flex items-center justify-between">
+                <span className="px-2 py-0.5 bg-surface-container-high border border-on-surface font-label-code text-[10px] font-bold uppercase text-on-surface">
+                  FINE JEWELRY
+                </span>
+                <span className="flex items-center gap-1 font-label-code text-[11px] text-emerald-600 dark:text-emerald-400 font-bold">
+                  <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+                  LIVE
+                </span>
+              </div>
+              <h3 className="font-headline-md text-headline-md uppercase text-on-surface group-hover:text-primary transition-colors">
+                DKS Jewelry
+              </h3>
+              <div className="font-label-code text-[11px] text-primary font-bold">
+                dks-jwelery.vercel.app
+              </div>
+              <p className="font-body-sm text-body-sm text-on-surface-variant">
+                Opulent boutique catalog showcasing fine gold, diamond jewelry, and bespoke interior aesthetics with instant 1-tap WhatsApp connect.
+              </p>
+              <div className="flex flex-wrap gap-1 font-label-code text-[10px] text-on-surface-variant pt-1">
+                <span className="px-1.5 py-0.5 bg-surface-container border border-outline">Next.js</span>
+                <span className="px-1.5 py-0.5 bg-surface-container border border-outline">WhatsApp API</span>
+                <span className="px-1.5 py-0.5 bg-surface-container border border-outline">Luxury UI</span>
+              </div>
+            </div>
+            <div className="pt-4 mt-4 border-t border-outline-variant">
+              <a
+                href="https://dks-jwelery.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => playSFX("kunai")}
+                className="w-full py-2.5 px-3 bg-tertiary-fixed text-on-tertiary-fixed border-2 border-on-surface manga-shadow font-headline-sm text-[12px] uppercase tracking-wide flex items-center justify-center gap-2 hover:translate-x-0.5 hover:translate-y-0.5 transition-transform"
+              >
+                <span>Visit Live Site</span>
+                <span className="material-symbols-outlined text-[16px]">open_in_new</span>
+              </a>
+            </div>
+          </div>
+
+          {/* Live Project 4: The Lateef & Co. */}
+          <div className="bg-surface-container-lowest border-2 border-on-surface manga-shadow p-5 flex flex-col justify-between hover:translate-y-[-4px] transition-transform duration-200 group">
+            <div className="space-y-3">
+              <div className="flex items-center justify-between">
+                <span className="px-2 py-0.5 bg-surface-container-high border border-on-surface font-label-code text-[10px] font-bold uppercase text-on-surface">
+                  STUDIO HUB
+                </span>
+                <span className="flex items-center gap-1 font-label-code text-[11px] text-emerald-600 dark:text-emerald-400 font-bold">
+                  <span className="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+                  LIVE
+                </span>
+              </div>
+              <h3 className="font-headline-md text-headline-md uppercase text-on-surface group-hover:text-primary transition-colors">
+                The Lateef &amp; Co.
+              </h3>
+              <div className="font-label-code text-[11px] text-primary font-bold">
+                thelateefco.vercel.app
+              </div>
+              <p className="font-body-sm text-body-sm text-on-surface-variant">
+                Flagship engineering and AI consulting portfolio featuring custom manga shinobi aesthetics, edge optimizations, and client dispatch protocol.
+              </p>
+              <div className="flex flex-wrap gap-1 font-label-code text-[10px] text-on-surface-variant pt-1">
+                <span className="px-1.5 py-0.5 bg-surface-container border border-outline">Next.js 15</span>
+                <span className="px-1.5 py-0.5 bg-surface-container border border-outline">TypeScript</span>
+                <span className="px-1.5 py-0.5 bg-surface-container border border-outline">Vercel Edge</span>
+              </div>
+            </div>
+            <div className="pt-4 mt-4 border-t border-outline-variant">
+              <a
+                href="https://thelateefco.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => playSFX("kunai")}
+                className="w-full py-2.5 px-3 bg-primary-container text-on-primary border-2 border-on-surface manga-shadow font-headline-sm text-[12px] uppercase tracking-wide flex items-center justify-center gap-2 hover:translate-x-0.5 hover:translate-y-0.5 transition-transform"
+              >
+                <span>Visit Live Site</span>
+                <span className="material-symbols-outlined text-[16px]">open_in_new</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SECTION 4: Featured Chapters (Canon Real Projects) */}
       <section className="relative w-full px-4 sm:px-8 lg:px-12 py-12 max-w-7xl mx-auto" id="featured-work">
         {/* Chapter Header */}
         <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-8 gap-4 border-b-2 border-on-surface pb-4">
@@ -362,107 +547,113 @@ export default function HomePage() {
 
         {/* 3 Comic Panels Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
-          {/* Chapter 01: LeadFlow */}
+          {/* Chapter 01: Urban Vogue */}
           <article className="bg-surface-container-lowest border-2 border-on-surface manga-shadow flex flex-col justify-between overflow-hidden group hover:translate-y-[-4px] transition-transform duration-200">
             <div>
               <div className="p-4 bg-surface-container-high border-b-2 border-on-surface flex items-center justify-between">
                 <span className="font-label-code text-label-code uppercase tracking-widest font-bold text-on-surface">
                   CHAPTER 01
                 </span>
-                <span className="px-2 py-0.5 bg-primary-container text-on-surface font-label-code text-[10px] font-bold uppercase border border-on-surface">
-                  AI ENGINE
+                <span className="px-2 py-0.5 bg-emerald-500 text-white font-label-code text-[10px] font-bold uppercase border border-on-surface flex items-center gap-1">
+                  <span className="w-1.5 h-1.5 rounded-full bg-white animate-pulse"></span>
+                  LIVE ON VERCEL
                 </span>
               </div>
               <div className="relative h-48 bg-surface-container-low border-b-2 border-on-surface overflow-hidden flex items-center justify-center p-6 screentone-dots">
                 <div className="w-full h-full bg-surface-container-lowest border-2 border-on-surface p-4 manga-shadow flex flex-col justify-between relative z-10">
                   <div className="flex items-center justify-between font-label-code text-[11px] text-on-surface-variant">
-                    <span>NODE: SERPER.DEV</span>
-                    <span className="text-tertiary font-bold">LIVE SYNC</span>
+                    <span>DEPLOYMENT: VERCEL</span>
+                    <span className="text-emerald-500 font-bold">SUB-SECOND</span>
                   </div>
                   <div className="font-headline-md text-headline-md text-on-surface">
-                    10,000+
+                    URBAN VOGUE
                   </div>
-                  <div className="font-label-code text-[11px] text-on-surface-variant uppercase">
-                    VERIFIED B2B LEADS DELIVERED
+                  <div className="font-label-code text-[11px] text-primary font-bold">
+                    urban-vougee.vercel.app
                   </div>
                 </div>
               </div>
               <div className="p-6 space-y-3">
                 <div className="flex flex-wrap gap-1.5 font-label-code text-[11px]">
                   <span className="px-2 py-0.5 bg-surface-container border border-outline text-on-surface font-semibold">Next.js</span>
-                  <span className="px-2 py-0.5 bg-surface-container border border-outline text-on-surface font-semibold">Serper.dev</span>
-                  <span className="px-2 py-0.5 bg-surface-container border border-outline text-on-surface font-semibold">Appwrite</span>
+                  <span className="px-2 py-0.5 bg-surface-container border border-outline text-on-surface font-semibold">Tailwind CSS</span>
+                  <span className="px-2 py-0.5 bg-surface-container border border-outline text-on-surface font-semibold">Cart Engine</span>
                 </div>
                 <h3 className="font-headline-md text-headline-md uppercase text-on-surface">
-                  LeadFlow — AI B2B Lead Engine
+                  Urban Vogue — Streetwear Store
                 </h3>
                 <p className="font-body-md text-body-md text-on-surface-variant">
-                  Automated 10,000+ verified B2B leads with autonomous AI scraping &amp; CRM sync.
+                  High-speed e-commerce platform with dynamic cart state and responsive mobile lookbooks.
                 </p>
               </div>
             </div>
-            <div className="p-6 pt-0">
-              <Link
-                className="w-full py-3 bg-surface-container text-on-surface font-headline-sm text-headline-sm uppercase text-center border-2 border-on-surface manga-shadow flex items-center justify-center gap-2 group-hover:bg-primary-container group-hover:text-on-primary transition-colors"
-                href="/work"
-                onClick={() => playSFX("click")}
+            <div className="p-6 pt-0 flex gap-2">
+              <a
+                className="w-full py-3 bg-primary-container text-on-primary font-headline-sm text-headline-sm uppercase text-center border-2 border-on-surface manga-shadow flex items-center justify-center gap-2 hover:translate-x-0.5 hover:translate-y-0.5 transition-transform"
+                href="https://urban-vougee.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => playSFX("kunai")}
               >
-                <span>View Chapter →</span>
-              </Link>
+                <span>Launch Live App ↗</span>
+              </a>
             </div>
           </article>
 
-          {/* Chapter 02: Kroma Studio */}
+          {/* Chapter 02: Ace New Interior */}
           <article className="bg-surface-container-lowest border-2 border-on-surface manga-shadow flex flex-col justify-between overflow-hidden group hover:translate-y-[-4px] transition-transform duration-200">
             <div>
               <div className="p-4 bg-surface-container-high border-b-2 border-on-surface flex items-center justify-between">
                 <span className="font-label-code text-label-code uppercase tracking-widest font-bold text-on-surface">
                   CHAPTER 02
                 </span>
-                <span className="px-2 py-0.5 bg-secondary-fixed text-on-secondary-fixed font-label-code text-[10px] font-bold uppercase border border-on-surface">
-                  EXPERIENCE
+                <span className="px-2 py-0.5 bg-secondary-fixed text-on-secondary-fixed font-label-code text-[10px] font-bold uppercase border border-on-surface flex items-center gap-1">
+                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                  LIVE ON VERCEL
                 </span>
               </div>
               <div className="relative h-48 bg-surface-container-low border-b-2 border-on-surface overflow-hidden flex items-center justify-center p-6 screentone-dots">
                 <div className="w-full h-full bg-surface-container-lowest border-2 border-on-surface p-4 manga-shadow flex flex-col justify-between relative z-10">
                   <div className="flex items-center justify-between font-label-code text-[11px] text-on-surface-variant">
                     <span>AUDIT: LIGHTHOUSE</span>
-                    <span className="text-secondary font-bold">PERFECT SCORE</span>
+                    <span className="text-secondary font-bold">+140% LEADS</span>
                   </div>
                   <div className="font-headline-md text-headline-md text-on-surface">
-                    99 / 100
+                    ACE INTERIOR
                   </div>
-                  <div className="font-label-code text-[11px] text-on-surface-variant uppercase">
-                    PERFORMANCE SCORE INDEX
+                  <div className="font-label-code text-[11px] text-primary font-bold">
+                    acenewinterior.vercel.app
                   </div>
                 </div>
               </div>
               <div className="p-6 space-y-3">
                 <div className="flex flex-wrap gap-1.5 font-label-code text-[11px]">
                   <span className="px-2 py-0.5 bg-surface-container border border-outline text-on-surface font-semibold">Next.js</span>
-                  <span className="px-2 py-0.5 bg-surface-container border border-outline text-on-surface font-semibold">Tailwind</span>
                   <span className="px-2 py-0.5 bg-surface-container border border-outline text-on-surface font-semibold">Framer Motion</span>
+                  <span className="px-2 py-0.5 bg-surface-container border border-outline text-on-surface font-semibold">Spatial Design</span>
                 </div>
                 <h3 className="font-headline-md text-headline-md uppercase text-on-surface">
-                  Kroma Studio — Agency Platform
+                  Ace New Interior Architecture
                 </h3>
                 <p className="font-body-md text-body-md text-on-surface-variant">
-                  Ultra-fast headless digital experience with 99/100 Lighthouse performance.
+                  Luxury interior architecture digital studio presenting bespoke spatial projects and consultation intake.
                 </p>
               </div>
             </div>
-            <div className="p-6 pt-0">
-              <Link
-                className="w-full py-3 bg-surface-container text-on-surface font-headline-sm text-headline-sm uppercase text-center border-2 border-on-surface manga-shadow flex items-center justify-center gap-2 group-hover:bg-secondary-fixed group-hover:text-on-secondary-fixed transition-colors"
-                href="/work"
-                onClick={() => playSFX("click")}
+            <div className="p-6 pt-0 flex gap-2">
+              <a
+                className="w-full py-3 bg-secondary-fixed text-on-secondary-fixed font-headline-sm text-headline-sm uppercase text-center border-2 border-on-surface manga-shadow flex items-center justify-center gap-2 hover:translate-x-0.5 hover:translate-y-0.5 transition-transform"
+                href="https://acenewinterior.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => playSFX("kunai")}
               >
-                <span>View Chapter →</span>
-              </Link>
+                <span>Launch Live App ↗</span>
+              </a>
             </div>
           </article>
 
-          {/* Chapter 03: Zenith Logistics */}
+          {/* Chapter 03: LeadFlow (Leads Scraper) */}
           <article className="bg-surface-container-lowest border-2 border-on-surface manga-shadow flex flex-col justify-between overflow-hidden group hover:translate-y-[-4px] transition-transform duration-200">
             <div>
               <div className="p-4 bg-surface-container-high border-b-2 border-on-surface flex items-center justify-between">
@@ -470,44 +661,44 @@ export default function HomePage() {
                   CHAPTER 03
                 </span>
                 <span className="px-2 py-0.5 bg-tertiary-fixed text-on-tertiary-fixed font-label-code text-[10px] font-bold uppercase border border-on-surface">
-                  AGENT
+                  AI SCRAPER
                 </span>
               </div>
               <div className="relative h-48 bg-surface-container-low border-b-2 border-on-surface overflow-hidden flex items-center justify-center p-6 screentone-dots">
                 <div className="w-full h-full bg-surface-container-lowest border-2 border-on-surface p-4 manga-shadow flex flex-col justify-between relative z-10">
                   <div className="flex items-center justify-between font-label-code text-[11px] text-on-surface-variant">
-                    <span>GATEWAY: WHATSAPP CLOUD</span>
-                    <span className="text-tertiary font-bold">-74% RESOLUTION</span>
+                    <span>ENGINE: SERPER + GPT-4o</span>
+                    <span className="text-tertiary font-bold">10K+ LEADS</span>
                   </div>
                   <div className="font-headline-md text-headline-md text-on-surface">
-                    &lt; 4.2 SEC
+                    LEADFLOW
                   </div>
                   <div className="font-label-code text-[11px] text-on-surface-variant uppercase">
-                    AVG AI BOT RESPONSE TIME
+                    AUTONOMOUS B2B INTELLIGENCE
                   </div>
                 </div>
               </div>
               <div className="p-6 space-y-3">
                 <div className="flex flex-wrap gap-1.5 font-label-code text-[11px]">
+                  <span className="px-2 py-0.5 bg-surface-container border border-outline text-on-surface font-semibold">Python</span>
                   <span className="px-2 py-0.5 bg-surface-container border border-outline text-on-surface font-semibold">FastAPI</span>
-                  <span className="px-2 py-0.5 bg-surface-container border border-outline text-on-surface font-semibold">OpenAI</span>
-                  <span className="px-2 py-0.5 bg-surface-container border border-outline text-on-surface font-semibold">WhatsApp API</span>
+                  <span className="px-2 py-0.5 bg-surface-container border border-outline text-on-surface font-semibold">OpenAI GPT-4o</span>
                 </div>
                 <h3 className="font-headline-md text-headline-md uppercase text-on-surface">
-                  Zenith Logistics — AI Operations
+                  LeadFlow — AI Leads Scraper
                 </h3>
                 <p className="font-body-md text-body-md text-on-surface-variant">
-                  Autonomous AI dispatch assistant reducing customer resolution time by 74%.
+                  Autonomous B2B scraping jutsu extracting targeted prospect domains and qualifying intent 24/7.
                 </p>
               </div>
             </div>
-            <div className="p-6 pt-0">
+            <div className="p-6 pt-0 flex gap-2">
               <Link
                 className="w-full py-3 bg-surface-container text-on-surface font-headline-sm text-headline-sm uppercase text-center border-2 border-on-surface manga-shadow flex items-center justify-center gap-2 group-hover:bg-primary-container group-hover:text-on-primary transition-colors"
                 href="/work"
                 onClick={() => playSFX("click")}
               >
-                <span>View Chapter →</span>
+                <span>View All 10 Missions →</span>
               </Link>
             </div>
           </article>
@@ -516,9 +707,9 @@ export default function HomePage() {
 
       {/* SECTION 4: Lateef's Monologue / Philosophy Speech Bubble */}
       <section className="relative w-full px-4 sm:px-8 lg:px-12 py-16 max-w-5xl mx-auto flex flex-col items-center">
-        {/* Bracketed SFX Note */}
+        {/* Monologue Badge */}
         <div className="font-label-code text-label-code uppercase tracking-widest text-on-surface-variant font-bold mb-4">
-          (SFX: *FOCUS*)
+          [FOCUS // SHINOBI OATH]
         </div>
 
         {/* Hand-Inked Comic Oval Speech Bubble */}

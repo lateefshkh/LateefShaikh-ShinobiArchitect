@@ -67,7 +67,7 @@ export default function ContactPage() {
         <div className="mt-8 mb-6 grid grid-cols-1 lg:grid-cols-12 gap-6 items-end">
           <div className="lg:col-span-8 space-y-2">
             <div className="inline-block px-2 py-0.5 bg-primary-fixed text-on-primary-fixed border border-on-surface font-label-code text-label-code font-bold uppercase">
-              // NINJA MISSION SCROLL PROTOCOL
+              {"//"} NINJA MISSION SCROLL PROTOCOL
             </div>
             <h1 className="font-headline-lg text-headline-lg uppercase tracking-tight text-on-surface">
               TRANSMIT YOUR{" "}
@@ -90,7 +90,7 @@ export default function ContactPage() {
                     &ldquo;Direct terminal dispatch. Zero account managers, zero bureaucracy. Pure architect-grade execution.&rdquo;
                   </p>
                   <span className="font-label-code text-label-code text-primary font-bold mt-1 block">
-                    // Lateef SHAIKH
+                    {"//"} Lateef SHAIKH
                   </span>
                 </div>
               </div>
@@ -405,7 +405,7 @@ export default function ContactPage() {
                 {/* Email Direct Card */}
                 <a
                   className="flex items-center justify-between p-3 bg-surface-container-lowest border-2 border-on-surface manga-shadow hover:bg-secondary-fixed hover:translate-x-1 transition-all group"
-                  href="mailto:Lateef@thelateef.co"
+                  href="mailto:thelateefco@gmail.com"
                   onClick={() => playSFX("click")}
                 >
                   <div className="flex items-center gap-3">
@@ -417,7 +417,7 @@ export default function ContactPage() {
                         Priority Mailbox
                       </div>
                       <div className="font-label-code text-label-code font-bold text-on-surface group-hover:text-primary">
-                        Lateef@thelateef.co
+                        thelateefco@gmail.com
                       </div>
                     </div>
                   </div>
@@ -429,7 +429,7 @@ export default function ContactPage() {
                 {/* WhatsApp Direct Card */}
                 <a
                   className="flex items-center justify-between p-3 bg-surface-container-lowest border-2 border-on-surface manga-shadow hover:bg-secondary-fixed hover:translate-x-1 transition-all group"
-                  href="https://wa.me/919000000000?text=Hello%20Lateef,%20I%20have%20a%20project%20inquiry"
+                  href="https://wa.me/919769212600?text=Hello%20Lateef,%20I%20have%20a%20project%20inquiry"
                   rel="noopener noreferrer"
                   target="_blank"
                   onClick={() => playSFX("click")}
@@ -443,7 +443,7 @@ export default function ContactPage() {
                         Instant Signal / WhatsApp
                       </div>
                       <div className="font-label-code text-label-code font-bold text-on-surface group-hover:text-secondary">
-                        +91 (Mumbai HQ Direct)
+                        +91 97692 12600
                       </div>
                     </div>
                   </div>
@@ -455,7 +455,7 @@ export default function ContactPage() {
                 {/* GitHub Card */}
                 <a
                   className="flex items-center justify-between p-3 bg-surface-container-lowest border-2 border-on-surface manga-shadow hover:bg-secondary-fixed hover:translate-x-1 transition-all group"
-                  href="https://github.com"
+                  href="https://github.com/lateefshkh/"
                   rel="noopener noreferrer"
                   target="_blank"
                   onClick={() => playSFX("click")}
@@ -466,36 +466,10 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <div className="font-label-code text-[11px] text-on-surface-variant uppercase font-bold">
-                        Public Scrolls / Code
+                        Public Scrolls / GitHub
                       </div>
                       <div className="font-label-code text-label-code font-bold text-on-surface">
-                        github.com/lateef-co
-                      </div>
-                    </div>
-                  </div>
-                  <span className="material-symbols-outlined text-on-surface-variant group-hover:text-on-surface transition-transform group-hover:translate-x-1">
-                    arrow_forward
-                  </span>
-                </a>
-
-                {/* Instagram Visual Hanko Card */}
-                <a
-                  className="flex items-center justify-between p-3 bg-surface-container-lowest border-2 border-on-surface manga-shadow hover:bg-secondary-fixed hover:translate-x-1 transition-all group"
-                  href="https://instagram.com/sliqenca"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  onClick={() => playSFX("click")}
-                >
-                  <div className="flex items-center gap-3">
-                    <div className="w-9 h-9 bg-tertiary-container text-on-tertiary border border-on-surface flex items-center justify-center">
-                      <span className="material-symbols-outlined text-[20px]">palette</span>
-                    </div>
-                    <div>
-                      <div className="font-label-code text-[11px] text-on-surface-variant uppercase font-bold">
-                        Visual Hanko &amp; Design
-                      </div>
-                      <div className="font-label-code text-label-code font-bold text-on-surface">
-                        @sliqenca
+                        github.com/lateefshkh
                       </div>
                     </div>
                   </div>
@@ -507,7 +481,7 @@ export default function ContactPage() {
                 {/* LinkedIn Card */}
                 <a
                   className="flex items-center justify-between p-3 bg-surface-container-lowest border-2 border-on-surface manga-shadow hover:bg-secondary-fixed hover:translate-x-1 transition-all group"
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/mr-lateef-s-476637318/"
                   rel="noopener noreferrer"
                   target="_blank"
                   onClick={() => playSFX("click")}
@@ -518,10 +492,10 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <div className="font-label-code text-[11px] text-on-surface-variant uppercase font-bold">
-                        Shinobi Professional Network
+                        Shinobi Network / LinkedIn
                       </div>
                       <div className="font-label-code text-label-code font-bold text-on-surface">
-                        linkedin.com/in/Lateef-shaikh
+                        linkedin.com/in/mr-lateef-s-476637318
                       </div>
                     </div>
                   </div>
@@ -538,16 +512,17 @@ export default function ContactPage() {
                 <span className="font-label-code text-[11px] bg-on-surface text-surface px-2 py-0.5 font-bold uppercase tracking-wider">
                   PANEL // 04: ARCHITECT AURA
                 </span>
-                <span className="font-speech-bubble-sm text-speech-bubble-sm text-tertiary font-bold tracking-tight">
-                  SFX: *CRASH!*
+                <span className="font-label-code text-[10px] text-emerald-600 dark:text-emerald-400 font-bold uppercase tracking-wider flex items-center gap-1">
+                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                  ACTIVE STATUS
                 </span>
               </div>
 
-              <div className="relative w-full h-44 overflow-hidden border-2 border-on-surface bg-surface-container-high">
+              <div className="relative w-full h-64 overflow-hidden border-2 border-on-surface bg-surface-container-high">
                 <img
-                  className="w-full h-full object-cover object-top"
-                  alt="Intense high contrast shonen manga panel close-up of a young determined Indian developer architect with sharp focused eyes"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDykaFdnFgRSHq6Y9fnS0MKWaQHIFpJxmf-5_nCCY1e6NVScCuwryW6vAB0-Wrmnv1LNY_DY1MtLD6guFqLlSt3lLL_cvdekwgS4Xi5vEmwkuCjr5qXPxiOwZg7bRraBE58U6g-7oT7_kjxzjD-Z002dOBLEvvalLsmIx0wS1Kh75XLDw_DBhKV33s3MAvHIe7GAcFShl_JxCjMR5rBUYUP_XA3wY5LQ30IgXAupGvGtnIhCfHwNL_I"
+                  className="w-full h-full object-cover object-center"
+                  alt="Lateef Shaikh Mumbai Web & AI Developer"
+                  src="/lateef/lateefshaikh.jpeg"
                 />
                 <div className="absolute bottom-2 left-2 bg-inverse-surface text-surface-bright px-2.5 py-1 font-label-code text-[10px] tracking-wider uppercase border border-surface-bright">
                   Lateef SHAIKH // PRINCIPAL CRAFTSMAN
@@ -581,12 +556,17 @@ export default function ContactPage() {
               </div>
 
               <div
-                className="w-full h-32 bg-cover bg-center border-2 border-on-surface relative overflow-hidden"
-                style={{
-                  backgroundImage:
-                    "url('https://lh3.googleusercontent.com/aida-public/AB6AXuBDEI1zUPK80pLNl9_lJHs2U1q1ezhinvCymWPlhnUdZC6vLjpFQAEwW4lSwt9gVp4Mw4XiwT0dgVsXQZScIOgUS4yBgr3mVXXxlj-lCk3ZwrYlM3dG5-9FzSf2Gi3xZUWgTqFbDMSY7F_-jXh2iExZefegvyddffYcXUIlZv5mQIKZxk495ispVtpssV82JoyIMpzV3HJHkNXKoH_5yQFxWSBCMIoEkfOABGaSU0ctNT0TyU8GKQCP')",
-                }}
+                className="w-full h-32 bg-surface-container-low border-2 border-on-surface relative overflow-hidden screentone-dots flex items-center justify-center"
               >
+                <div className="absolute inset-0 bg-gradient-to-r from-primary-container/20 via-transparent to-secondary-container/20"></div>
+                <div className="relative z-10 flex flex-col items-center justify-center text-center p-3">
+                  <div className="font-headline-sm text-headline-sm uppercase text-on-surface">
+                    Mumbai Global Command
+                  </div>
+                  <div className="font-label-code text-[11px] text-primary font-bold">
+                    LAT 19.0760° N • LONG 72.8777° E
+                  </div>
+                </div>
                 <div className="absolute inset-0 bg-surface/30 mix-blend-multiply"></div>
                 <div className="absolute top-2 left-2 bg-surface-container-lowest border border-on-surface px-2 py-0.5 font-label-code text-[10px] font-bold">
                   OPERATING REMOTELY GLOBALLY
@@ -723,7 +703,7 @@ export default function ContactPage() {
           <div className="absolute inset-0 screentone-dots opacity-15 pointer-events-none"></div>
           <div className="relative z-10 space-y-1 text-center md:text-left">
             <div className="font-label-code text-label-code text-primary-fixed uppercase tracking-widest font-bold">
-              // FINAL COMMANDMENT
+              {"//"} FINAL COMMANDMENT
             </div>
             <h3 className="font-headline-md text-headline-md uppercase text-surface-bright">
               &ldquo;EVERY PROJECT IS PERSONALLY BUILT AND BATTLE-TESTED BY Lateef. ZERO OUTSOURCING.&rdquo;

@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import Link from "next/link";
 import { useApp } from "@/context/AppContext";
 
 export default function Footer() {
@@ -41,41 +40,41 @@ export default function Footer() {
         <div className="flex items-center gap-3">
           <a
             className="w-9 h-9 border-2 border-on-surface manga-shadow bg-surface-container-highest flex items-center justify-center text-on-surface hover:bg-secondary-container hover:text-on-secondary-container transition-all"
-            href="mailto:contact@thelateef.co"
-            title="Direct Scroll / Email"
+            href="mailto:thelateefco@gmail.com"
+            title="Direct Email (thelateefco@gmail.com)"
             onClick={() => playSFX("click")}
           >
             <span className="material-symbols-outlined text-[18px]">mail</span>
           </a>
           <a
             className="w-9 h-9 border-2 border-on-surface manga-shadow bg-surface-container-highest flex items-center justify-center text-on-surface hover:bg-secondary-container hover:text-on-secondary-container transition-all"
-            href="https://linkedin.com/in/Lateef-shaikh"
+            href="https://wa.me/919769212600?text=Hi%20Lateef,%20I%20have%20a%20project%20inquiry"
             target="_blank"
             rel="noopener noreferrer"
-            title="Shinobi Network / LinkedIn"
+            title="Direct WhatsApp (+91 9769212600)"
             onClick={() => playSFX("click")}
           >
-            <span className="material-symbols-outlined text-[18px]">hub</span>
+            <span className="material-symbols-outlined text-[18px]">chat</span>
           </a>
           <a
             className="w-9 h-9 border-2 border-on-surface manga-shadow bg-surface-container-highest flex items-center justify-center text-on-surface hover:bg-secondary-container hover:text-on-secondary-container transition-all"
-            href="https://github.com"
+            href="https://github.com/lateefshkh/"
             target="_blank"
             rel="noopener noreferrer"
-            title="Scroll Vault / GitHub"
+            title="GitHub (@lateefshkh)"
             onClick={() => playSFX("click")}
           >
             <span className="material-symbols-outlined text-[18px]">code</span>
           </a>
           <a
             className="w-9 h-9 border-2 border-on-surface manga-shadow bg-surface-container-highest flex items-center justify-center text-on-surface hover:bg-primary-container hover:text-on-primary-container transition-all"
-            href="https://instagram.com/sliqenca"
+            href="https://www.linkedin.com/in/mr-lateef-s-476637318/"
             target="_blank"
             rel="noopener noreferrer"
-            title="Visual Hanko / Instagram @sliqenca"
+            title="LinkedIn (Lateef Shaikh)"
             onClick={() => playSFX("click")}
           >
-            <span className="material-symbols-outlined text-[18px]">photo_camera</span>
+            <span className="material-symbols-outlined text-[18px]">hub</span>
           </a>
         </div>
 

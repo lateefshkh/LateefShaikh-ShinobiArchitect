@@ -626,7 +626,7 @@ export default function ServicesPage() {
 
               <a
                 className="w-full sm:w-auto px-6 py-4 bg-surface-container-high text-on-surface border-2 border-on-surface manga-shadow font-headline-sm text-headline-sm uppercase tracking-wide hover:bg-secondary-container hover:text-on-secondary-container transition-all flex items-center justify-center gap-2"
-                href="https://wa.me/919000000000?text=Hi%20Lateef,%20I'm%20interested%20in%20deploying%20a%20project."
+                href="https://wa.me/919769212600?text=Hi%20Lateef,%20I'm%20interested%20in%20deploying%20a%20project."
                 rel="noopener noreferrer"
                 target="_blank"
                 onClick={() => playSFX("click")}

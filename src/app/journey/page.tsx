@@ -46,21 +46,21 @@ export default function JourneyPage() {
                 <span className="font-label-code text-label-code text-primary font-bold tracking-widest">
                   [PROTAGONIST // AWAKENING]
                 </span>
-                <button
-                  type="button"
-                  onClick={() => playSFX("dodon")}
-                  className="font-headline-sm text-headline-sm text-tertiary tracking-tight cursor-pointer hover:scale-105 transition-transform"
+                <Link
+                  href="/work#live-deployments"
+                  className="font-label-code text-[11px] text-emerald-600 dark:text-emerald-400 font-bold tracking-tight hover:underline flex items-center gap-1 uppercase"
                 >
-                  SFX: *KRAKA-DOOM!*
-                </button>
+                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                  <span>Live Deployments ↗</span>
+                </Link>
               </div>
 
-              {/* Protagonist Illustration */}
+              {/* Protagonist Photo */}
               <div className="relative border-2 border-on-surface overflow-hidden bg-surface-container-high aspect-[3/4] flex items-center justify-center">
                 <img
-                  alt="Manga protagonist Lateef Shaikh powering up with electric cyan and chakra orange aura holding kunai stylus and laptop"
+                  alt="Lateef Shaikh - Full-Stack Craftsman & AI Automation Builder"
                   className="w-full h-full object-cover object-center transform group-hover:scale-[1.02] transition-transform duration-500"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuAJ4Ybf6ZtsRQBfjfL5rhwuxPrY_aAifIlCmHFcYAoC8gdQh-poBlPyf9vzDJVx7LNhrfBowJF_vmEfwJEQiUQa3QITapqah5LQcWpNXa-zLlDst18FauCBrEXI52PNlUhncdGggqS-TnxSteGmaJepvz4klUTlB0EXqFfPLqbpYJ0TeZDjVs0CBwxXSFmJ81UwUonzNYp6kQLNT96R-ESHrYydmqc7xxGj0V18eSTSUpGkeVpkRdbC"
+                  src="/lateef/lateefshaikh.jpeg"
                 />
                 {/* Aura Corner Overlay Badge */}
                 <div className="absolute bottom-3 left-3 bg-surface-container-lowest/95 backdrop-blur-sm border-2 border-on-surface px-3 py-1.5 manga-shadow flex items-center gap-2">
@@ -461,7 +461,7 @@ export default function JourneyPage() {
                 </p>
               </div>
               <div className="mt-4 pt-3 border-t border-outline-variant flex items-center justify-end font-label-code text-label-code text-on-surface-variant">
-                <span>// CHAKRA BALANCE</span>
+                <span>{"//"} CHAKRA BALANCE</span>
               </div>
             </div>
 
@@ -479,7 +479,7 @@ export default function JourneyPage() {
                 </p>
               </div>
               <div className="mt-4 pt-3 border-t border-outline-variant flex items-center justify-end font-label-code text-label-code text-on-surface-variant">
-                <span>// ZERO BLINKING</span>
+                <span>{"//"} ZERO BLINKING</span>
               </div>
             </div>
 
@@ -497,7 +497,7 @@ export default function JourneyPage() {
                 </p>
               </div>
               <div className="mt-4 pt-3 border-t border-outline-variant flex items-center justify-end font-label-code text-label-code text-on-surface-variant">
-                <span>// 100% MAXIMUM POWER</span>
+                <span>{"//"} 100% MAXIMUM POWER</span>
               </div>
             </div>
           </div>

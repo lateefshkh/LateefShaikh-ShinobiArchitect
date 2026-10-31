@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Manga Offset Shadow -->
+  <rect x="6" y="6" width="52" height="52" rx="10" fill="#1c1b1b" />
+  
+  <!-- Main High-Contrast Badge -->
+  <rect x="3" y="3" width="52" height="52" rx="10" fill="#ff6a00" stroke="#1c1b1b" stroke-width="4" />
+  
+  <!-- Corner Energy Flare -->
+  <circle cx="47" cy="13" r="3" fill="#ffffff" />
+
+  <!-- Bold Neo-Brutalist LS Monogram -->
+  <g fill="#ffffff" stroke="#1c1b1b" stroke-width="1.5" stroke-linejoin="round">
+    <!-- Letter L -->
+    <path d="M 14 16 L 21 16 L 21 39 L 30 39 L 30 46 L 14 46 Z" />
+    <!-- Letter S -->
+    <path d="M 33 16 L 49 16 L 49 23 L 39 23 L 39 27 L 49 29 L 49 46 L 33 46 L 33 39 L 43 39 L 43 35 L 33 33 Z" />
+  </g>
+</svg>
+
